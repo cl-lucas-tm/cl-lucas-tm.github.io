@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reviews - Hollow Knight</title>
+    <link rel="stylesheet" href="formatacao.css">
+</head>
+<body>
+    <hr>
+    | <a href="index.html">Sobre o jogo </a>|
+     Reviews | 
+     <a href="minigames.html">Minigames </a>|
+    <hr>
+    <h1>REVIEWS DE HOLLOW KNIGHT</h1>
+
+    <h2>Minha Review: </h2>
+    <p>
+        Data: 01/06/2026<br>
+        <b>Hollow Knight</b> é um ótimo jogo, progressão boa, ritmo bom, músicas boas. Nesse jogo cada coisa que você vê parece pintada a mão,
+        para jogadores mais iniciantes, o jogo pode ser desafiador mas possível, você sempre estará evoluindo, e para aqueles jogadores mais experientes,
+        existem desafios a seus níveis.<br>
+        A progressão é muito boa, cada coisa que você desbloqueia é como um novo mundo desbloqueado, novas histórias, cenários e recompensas.<br>
+        Além disso a sequência é muito boa e recomendo <br>
+        OBS: Eu platinei o jogo.
+    </p>
+
+    <h2>Responda estas perguntas para criar a <b>sua</b> review: </h2><br><br>
+    <form>
+        <fieldset>
+            <legend>Sobre o Autor</legend>
+            
+            <label for="nome">Nome: </label><br>
+            <input type="text" minlength="2" name = "nome" id = "nome">
+            <br><br>
+
+            <label for="user">*Username: </label><br>
+            <input type="text" minlength="3" name = "user" id = "user" required
+            placeholder="seu nome de jogador">
+            <br><br>
+            
+            <label for="age">*Idade: </label><br>
+            <input type="number" name = "age" id = "age" min="6">
+            <br><br>
+
+            <label for="email">*Email de contato: </label><br>
+            <input type="email" name = "email" id = "email" required
+            placeholder="meuemail@gmail.com">
+            <br><br>
+            
+            <label for="tel">Telefone: </label><br>
+            <input type="email" name = "email" id = "email"
+            placeholder="(19) 94609-4211">
+            <br><br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Plataforma</legend>
+            <label for="plataforma1">PC:</label><br>
+            <input type="checkbox" name = "Windows"> Windows<br>
+            <input type="checkbox" name = "Mac"> Mac<br>
+            <input type="checkbox" name = "Linux"> Linux
+            <br><br>
+
+            <label for="plataforma2">CONSOLE: </label><br>
+            <input type="checkbox" name = "Xbox"> Xbox<br>
+            <input type="checkbox" name = "PS"> PS4 / PS5<br>
+            <input type="checkbox" name = "NintendoSwitch"> Nintendo Switch<br>
+            <input type="checkbox" name = "SteamDeck"> Steam Deck
+            <br><br>
+
+            <label for="plataforma3">OUTROS: </label><br>
+            <input type="checkbox" name = "celular"> Celular / Tablet<br> 
+            <input type="checkbox" name = "Outros"> Outros<br>
+            <br><br>
+            
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Review: </legend>
+            <label for="recomenda">Você recomenda o jogo para outros jogadores?</label><br>
+            <select id="recomenda" name = "recomenda">
+                <option value="sim">✅Sim</option>
+                <option value="nao">❌Não</option>
+            </select>
+            <br><br>
+            
+            <label for="horas">Tempo de jogo (h + min):</label><br>
+            <input type="number" name ="horas" id ="horas" 
+            min = "0"
+            style ="width: 60px;text-align: right;">h
+                
+            <input type="number" name ="minutos" id ="minutos" 
+            min ="0" max = "59"
+            style ="width: 40px; text-align: right;">min
+            <br><br>
+
+            <label for="datarev">Data:</label><br>
+            <input type="date" name="daterev" id="datarev">
+            <br><br>
+
+            <label for="textoreview">Escreva sobre: </label><br>
+            <textarea name="textoreview" id="textoreview"
+            rows = "10"
+            cols = "60"
+            spellcheck="true"
+            ></textarea>
+        </fieldset>
+        <br>
+        <input type="submit" value = "Enviar Review">
+        <input type="reset" value = "Refazer Review">
+    </form>
+</body>
+</html>

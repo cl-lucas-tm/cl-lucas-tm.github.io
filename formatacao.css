@@ -1,0 +1,80 @@
+/*Trajan para titulos*/
+@font-face {
+    font-family: 'TrajanBold';
+    src: url('TrajanPro-Bold.otf');
+}
+/*Perpetua para o resto*/
+@font-face {
+    font-family: 'Perpetua';
+    src: url('./Perpetua-Font/Perpetua-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+/*Versao italica*/
+@font-face {
+    font-family: 'Perpetua';
+    src: url('Perpetua-Font/Perpetua-Italic.otf');
+    font-weight: normal;
+    font-style: italic;
+}
+/*Versao negrito*/
+@font-face {
+    font-family: 'Perpetua';
+    src: url('Perpetua-Font/Perpetua-Bold.otf'); 
+    font-weight: bold;
+    font-style: normal;
+}
+/*Versao negrito e italico*/
+@font-face {
+    font-family: 'Perpetua';
+    src: url('Perpetua-Font/Perpetua-Bold-Italic.otf'); 
+    font-weight: bold;
+    font-style: italic;
+}
+body {
+    background-color: #0b0b0b;
+    color: #e0e0e0;
+    font-family: 'Perpetua';
+    font-size: 24px;
+}
+
+h1{
+    font-family: 'TrajanBold';
+    font-size: 40px;
+    color: #ffffff;
+}
+h2, legend{
+    display: inline;
+    font-family: 'TrajanBold';
+    font-size: 30px;
+
+}
+th{
+    font-family: 'TrajanBold';
+    font-size: 24px;
+
+}
+
+p, i, textarea{
+    font-size: 24px;
+    max-width: 1200px;
+    margin: 20px auto;
+
+}
+a {
+    color: #4da3ff;
+}
+a:hover {
+    text-decoration: underline;
+}
+form label{
+    font-size: 30px;
+}
+form input, select{
+    font-family: "Perpetua";
+    font-size: 24px;
+}
+form input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+}

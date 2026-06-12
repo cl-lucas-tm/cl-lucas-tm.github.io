@@ -49,10 +49,19 @@ h2, legend{
     font-size: 30px;
 
 }
+li{
+    font-family: 'TrajanBold';
+    font-size: 40px;
+    text-align: center;
+
+}
 th{
     font-family: 'TrajanBold';
     font-size: 24px;
 
+}
+td{
+    text-align: center;
 }
 
 p, i, textarea{

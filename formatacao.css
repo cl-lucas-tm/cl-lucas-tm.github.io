@@ -53,7 +53,10 @@ li{
     font-family: 'TrajanBold';
     font-size: 40px;
     text-align: center;
-
+}
+ol {
+  list-style-position: inside;
+  text-align: center;
 }
 th{
     font-family: 'TrajanBold';
